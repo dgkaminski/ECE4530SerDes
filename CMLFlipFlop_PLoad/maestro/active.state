@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="11/19/2025 20:06:03" version="5">active
+<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="11/19/2025 17:17:15" version="5">active
 	<Test Name="ECE4530SerDes_CMLlatch_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="descriptiontext" Type="string">"None"</field>
@@ -1309,11 +1309,6 @@
 					<field Name="name" Type="string">"rload"</field>
 					<field Name="expression" Type="string">"7500"</field>
 					<field Name="index" Type="fixnum">3</field>
-				</field>
-				<field Name="saveComponent_3" Type="defstruct">sevVariableStruct
-					<field Name="name" Type="string">"w"</field>
-					<field Name="expression" Type="string">"300n"</field>
-					<field Name="index" Type="fixnum">4</field>
 				</field>
 			</field>
 		</component>

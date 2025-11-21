@@ -40,9 +40,6 @@
 					<var>ibias2
 						<value>50u</value>
 					</var>
-					<var>w
-						<value>300n</value>
-					</var>
 				</vars>
 			</test>
 		</tests>

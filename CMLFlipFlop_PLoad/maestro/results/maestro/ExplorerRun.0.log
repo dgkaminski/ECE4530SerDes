@@ -1,13 +1,13 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Wed Nov 19 20:05:14 2025 
+Current time: Wed Nov 19 17:17:17 2025 
 Best design point: 1
 Design specs: 
 	ECE4530SerDes_CMLlatch_1	corner	Nominal - 
 Design parameters: 
 
 ExplorerRun.0
-Number of points completed: 3
+Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Wed Nov 19 20:05:27 2025 
+Current time: Wed Nov 19 17:17:30 2025 

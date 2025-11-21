@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>ECE4530SerDes_CMLlatch_1
+			<test>ECE4530SerDes_RingVCO_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>CMLFlipFlop</value>
+						<value>RingVCO</value>
 					</option>
 					<option>lib
 						<value>ECE4530SerDes</value>
@@ -31,19 +31,45 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>rload
-						<value>7500</value>
-					</var>
 					<var>ibias
-						<value>50u</value>
-					</var>
-					<var>ibias2
-						<value>50u</value>
-					</var>
-					<var>w
-						<value>300n</value>
+						<value>{From/To}Auto:10u:30:70u{From/To}</value>
 					</var>
 				</vars>
+				<outputs>
+					<output>dft(VT("/net2") 2e-08 4e-09 1028 "Rectangular" 1 "default" 1.0)
+						<evalType>point</evalType>
+					</output>
+					<output>dft(VT("/net2") 4e-08 4.5e-08 1028 "Rectangular" 1 "default" 1.0)
+						<evalType>point</evalType>
+					</output>
+					<output>dft(VT("/net2") 4e-08 5e-08 1028 "Rectangular" 1 "default" 1.0)
+						<evalType>point</evalType>
+					</output>
+					<output>/v1
+						<evalType>point</evalType>
+					</output>
+					<output>/v2
+						<evalType>point</evalType>
+					</output>
+					<output>/v3
+						<evalType>point</evalType>
+					</output>
+					<output>dft(VT("/v3") 4e-08 5e-08 1028 "Rectangular" 1 "default" 1.0)
+						<evalType>point</evalType>
+					</output>
+					<output>ymax(clip(freq(VT("/v3") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 1e-08 5e-08))
+						<evalType>point</evalType>
+					</output>
+					<output>ymax(clip(freq(VT("/net2") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 10n 50n ))
+						<evalType>point</evalType>
+					</output>
+					<output>dft(VT("/v4b") 4e-08 5e-08 1028 "Rectangular" 1 "default" 1.0)
+						<evalType>point</evalType>
+					</output>
+					<output>ymax(clip(freq(VT("/v4b") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 1e-08 5e-08))
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>
@@ -55,7 +81,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">ECE4530SerDes_CMLlatch_1</test>
+			<test netlist="0" netlistscope="all">ECE4530SerDes_RingVCO_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
@@ -80,7 +106,7 @@
 				<value></value>
 			</plottingoption>
 			<plottingoption>distributedplot_enabled
-				<value>no</value>
+				<value>yes</value>
 			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
@@ -95,7 +121,16 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<jobpolicyname>Maestro Default</jobpolicyname>
+		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 	</active>
 	<history>History
+		<resultsviews>
+			<resultsview>Detail
+				<filter>v3
+					<configfilter>Test,Spec/Weight,Scalar Expressions,Waveform Expressions,Signals</configfilter>
+				</filter>
+			</resultsview>
+		</resultsviews>
 	</history>
 </setupdb>
