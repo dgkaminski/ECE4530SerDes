@@ -4,11 +4,31 @@
 		<jobcontrolmode>LSCS</jobcontrolmode>
 		<corners>
 			<corner enabled="1">_default</corner>
+			<corner enabled="1">ff
+				<models>
+					<model enabled="1">gpdk045.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/cadence-designkits/gpdk045_v_6_0/gpdk045/../models/spectre/gpdk045.scs</modelfile>
+						<modelsection>"ff"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">ss
+				<models>
+					<model enabled="1">gpdk045.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/cadence-designkits/gpdk045_v_6_0/gpdk045/../models/spectre/gpdk045.scs</modelfile>
+						<modelsection>"ss"</modelsection>
+					</model>
+				</models>
+			</corner>
 		</corners>
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>ECE4530SerDes_RingVCO_1
+			<test enabled="1">ECE4530SerDes_RingVCO_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
@@ -31,8 +51,11 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>ibias
-						<value>{From/To}Auto:10u:30:70u{From/To}</value>
+					<var>biasf
+						<value>0u</value>
+					</var>
+					<var>biasc
+						<value>32u</value>
 					</var>
 				</vars>
 				<outputs>
@@ -70,6 +93,7 @@
 						<evalType>point</evalType>
 					</output>
 				</outputs>
+				<allvariablesetsdisabled>0</allvariablesetsdisabled>
 			</test>
 		</tests>
 		<extensions>
@@ -85,7 +109,7 @@
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
-				<value>(None)</value>
+				<value></value>
 			</plottingoption>
 			<plottingoption>plottingmode
 				<value>Replace</value>
@@ -97,7 +121,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>yes</value>
+				<value>no</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
@@ -106,7 +130,7 @@
 				<value></value>
 			</plottingoption>
 			<plottingoption>distributedplot_enabled
-				<value>yes</value>
+				<value>no</value>
 			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>

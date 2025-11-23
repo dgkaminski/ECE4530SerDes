@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stimuliremovedset>
     <namedstimuli>
-        <stimuliname>vcont2</stimuliname>
+        <stimuliname>ibias</stimuliname>
     </namedstimuli>
     <namedstimuli>
         <stimuliname>vcont</stimuliname>
+    </namedstimuli>
+    <namedstimuli>
+        <stimuliname>vcont2</stimuliname>
+    </namedstimuli>
+    <namedstimuli>
+        <stimuliname>cbias</stimuliname>
     </namedstimuli>
 </stimuliremovedset>

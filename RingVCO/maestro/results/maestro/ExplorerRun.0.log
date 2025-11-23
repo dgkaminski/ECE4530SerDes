@@ -1,6 +1,24 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Thu Nov 20 21:48:42 2025 
-Received stop signal from user. 
+Current time: Fri Nov 21 11:46:08 2025 
+Best design point: 1
+Design specs: 
+	ECE4530SerDes_RingVCO_1	corner	ff - 
+	dft(VT("/v4b") 4e-08 5e-08 1028 "Rectangular" 1 "default" 1.0)		Error	No
+	ymax(clip(freq(VT("/v4b") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 1e-08 5e-08))		Error	No
+	ymax(clip(freq(VT("/net2") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 10n 50n ))		Error	No
+	ECE4530SerDes_RingVCO_1	corner	ss - 
+	dft(VT("/v4b") 4e-08 5e-08 1028 "Rectangular" 1 "default" 1.0)		Error	No
+	ymax(clip(freq(VT("/v4b") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 1e-08 5e-08))		Error	No
+	ymax(clip(freq(VT("/net2") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 10n 50n ))		Error	No
+	ECE4530SerDes_RingVCO_1	corner	Nominal - 
+	dft(VT("/v4b") 4e-08 5e-08 1028 "Rectangular" 1 "default" 1.0)		Error	No
+	ymax(clip(freq(VT("/v4b") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 1e-08 5e-08))		Error	No
+	ymax(clip(freq(VT("/net2") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 10n 50n ))		Error	No
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Thu Nov 20 21:48:52 2025 
+Current time: Fri Nov 21 11:47:31 2025 
