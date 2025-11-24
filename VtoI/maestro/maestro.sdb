@@ -37,6 +37,9 @@
 					<var>res
 						<value>50</value>
 					</var>
+					<var>ibias
+						<value>1u</value>
+					</var>
 				</vars>
 			</test>
 		</tests>
@@ -65,7 +68,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>yes</value>
+				<value>no</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>

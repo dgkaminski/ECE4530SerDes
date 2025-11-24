@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Fri Nov 21 22:06:03 2025 
+Current time: Sun Nov 23 19:13:50 2025 
 Best design point: 1
 Design specs: 
 	ECE4530SerDes_VtoI_1	corner	Nominal - 
@@ -10,4 +10,4 @@ ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Fri Nov 21 22:06:09 2025 
+Current time: Sun Nov 23 19:13:59 2025 
