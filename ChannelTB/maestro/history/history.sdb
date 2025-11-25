@@ -3,8 +3,8 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 24 19:05:55 2025</timestamp>
-			<uuid>{4cc65855-a169-4e37-a64c-26c0f6cbf67e}</uuid>
+			<timestamp>Nov 24 21:46:27 2025</timestamp>
+			<uuid>{bf78c4a6-460c-40db-b331-2fae7a3920d9}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/wua3/ece4530/ECE4530SerDes/ChannelTB/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

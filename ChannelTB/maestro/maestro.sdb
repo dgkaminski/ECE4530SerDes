@@ -30,6 +30,11 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
+				<vars>
+					<var>num_fing
+						<value>50</value>
+					</var>
+				</vars>
 			</test>
 		</tests>
 		<extensions>
@@ -57,7 +62,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>yes</value>
+				<value>no</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
