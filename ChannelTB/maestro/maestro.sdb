@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>final_CTLE_TB_1
+			<test>final_ChannelTB_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>CTLE_TB</value>
+						<value>ChannelTB</value>
 					</option>
 					<option>lib
 						<value>final</value>
@@ -30,11 +30,6 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
-				<vars>
-					<var>num_fing
-						<value>50</value>
-					</var>
-				</vars>
 			</test>
 		</tests>
 		<extensions>
@@ -46,7 +41,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">final_CTLE_TB_1</test>
+			<test netlist="0" netlistscope="all">final_ChannelTB_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
@@ -62,7 +57,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>no</value>
+				<value>yes</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
@@ -86,8 +81,6 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
-		<jobpolicyname>Maestro Default</jobpolicyname>
-		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 	</active>
 	<history>History
 	</history>

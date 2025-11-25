@@ -1,15 +1,13 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Nov 24 19:15:30 2025 
+Current time: Mon Nov 24 19:05:55 2025 
 Best design point: 1
 Design specs: 
-	final_CTLE_TB_1	corner	Nominal - 
-	Max Gain		14.21
-	Peaking		13.71
+	final_ChannelTB_1	corner	Nominal - 
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Mon Nov 24 19:15:36 2025 
+Current time: Mon Nov 24 19:06:02 2025 
