@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<setupdb version="7">maestro
+	<active>Active Setup
+		<jobcontrolmode>LSCS</jobcontrolmode>
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="0">ff
+				<models>
+					<model enabled="1">gpdk045.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/cadence-designkits/gpdk045_v_6_0/gpdk045/../models/spectre/gpdk045.scs</modelfile>
+						<modelsection>"ff"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">ss
+				<models>
+					<model enabled="1">gpdk045.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/opt/cadence-designkits/gpdk045_v_6_0/gpdk045/../models/spectre/gpdk045.scs</modelfile>
+						<modelsection>"ss"</modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<sharedvarinfo></sharedvarinfo>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">ECE4530SerDes_RingVCO_1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>RingVCOimproved</value>
+					</option>
+					<option>lib
+						<value>ECE4530SerDes</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+				</tooloptions>
+				<vars>
+					<var>biasf
+						<value>0u</value>
+					</var>
+					<var>biasc
+						<value>60u</value>
+					</var>
+				</vars>
+				<outputs>
+					<output>dft(VT("/net2") 2e-08 4e-09 1028 "Rectangular" 1 "default" 1.0)
+						<evalType>point</evalType>
+					</output>
+					<output>dft(VT("/net2") 4e-08 4.5e-08 1028 "Rectangular" 1 "default" 1.0)
+						<evalType>point</evalType>
+					</output>
+					<output>dft(VT("/net2") 4e-08 5e-08 1028 "Rectangular" 1 "default" 1.0)
+						<evalType>point</evalType>
+					</output>
+					<output>/v1
+						<evalType>point</evalType>
+					</output>
+					<output>/v2
+						<evalType>point</evalType>
+					</output>
+					<output>/v3
+						<evalType>point</evalType>
+					</output>
+					<output>dft(VT("/v3") 4e-08 5e-08 1028 "Rectangular" 1 "default" 1.0)
+						<evalType>point</evalType>
+					</output>
+					<output>ymax(clip(freq(VT("/v3") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 1e-08 5e-08))
+						<evalType>point</evalType>
+					</output>
+					<output>ymax(clip(freq(VT("/net2") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 10n 50n ))
+						<evalType>point</evalType>
+					</output>
+					<output>dft(VT("/v4b") 4e-08 5e-08 1028 "Rectangular" 1 "default" 1.0)
+						<evalType>point</evalType>
+					</output>
+					<output>ymax(clip(freq(VT("/v4b") "rising" ?xName "time" ?mode "auto" ?threshold 0.6) 1e-08 5e-08))
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+				<allvariablesetsdisabled>0</allvariablesetsdisabled>
+				<origoptions></origoptions>
+			</test>
+		</tests>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">ECE4530SerDes_RingVCO_1</test>
+		</checksasserts>
+		<plottingoptions>
+			<plottingoption>waveformtemplate
+				<value>(None)</value>
+			</plottingoption>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>distributedplot_enabled
+				<value>no</value>
+			</plottingoption>
+		</plottingoptions>
+		<exploreroptions>
+			<exploreroption>waveformtemplate
+				<value>(None)</value>
+			</exploreroption>
+		</exploreroptions>
+		<incrementalsimsetup>
+			<useincremental>0</useincremental>
+			<reusenetlist>0</reusenetlist>
+			<reusesaverunhist>0</reusesaverunhist>
+			<copyreferenceresults>1</copyreferenceresults>
+		</incrementalsimsetup>
+		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<jobpolicyname>Maestro Default</jobpolicyname>
+		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+	</active>
+	<history>History
+		<resultsviews>
+			<resultsview>Detail
+				<filter>v3
+					<configfilter>Test,Spec/Weight,Scalar Expressions,Waveform Expressions,Signals</configfilter>
+				</filter>
+			</resultsview>
+		</resultsviews>
+	</history>
+</setupdb>

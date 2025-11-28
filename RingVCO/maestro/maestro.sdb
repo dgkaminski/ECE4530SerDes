@@ -4,7 +4,7 @@
 		<jobcontrolmode>LSCS</jobcontrolmode>
 		<corners>
 			<corner enabled="1">_default</corner>
-			<corner enabled="1">ff
+			<corner enabled="0">ff
 				<models>
 					<model enabled="1">gpdk045.scs
 						<modeltest>All</modeltest>
@@ -14,7 +14,7 @@
 					</model>
 				</models>
 			</corner>
-			<corner enabled="1">ss
+			<corner enabled="0">ss
 				<models>
 					<model enabled="1">gpdk045.scs
 						<modeltest>All</modeltest>
