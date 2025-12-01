@@ -15,7 +15,7 @@
 						<value>ChannelTB</value>
 					</option>
 					<option>lib
-						<value>final</value>
+						<value>ECE4530SerDes</value>
 					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR</value>
@@ -30,11 +30,7 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
-				<vars>
-					<var>num_fing
-						<value>50</value>
-					</var>
-				</vars>
+				<vars></vars>
 			</test>
 		</tests>
 		<extensions>
@@ -50,7 +46,7 @@
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
-				<value></value>
+				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
 				<value>Replace</value>
@@ -62,7 +58,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>no</value>
+				<value>yes</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>

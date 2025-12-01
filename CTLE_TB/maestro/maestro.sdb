@@ -15,7 +15,7 @@
 						<value>CTLE_TB</value>
 					</option>
 					<option>lib
-						<value>final</value>
+						<value>ECE4530SerDes</value>
 					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR</value>

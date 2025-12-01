@@ -1,15 +1,16 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Nov 24 21:38:36 2025 
+Current time: Sun Nov 30 11:24:57 2025 
 Best design point: 1
 Design specs: 
 	final_CTLE_TB_1	corner	Nominal - 
-	Max Gain		14.21
-	Peaking		13.71
+	v /net4; ac dB20(V)		Error	No
+	Max Gain		Error	No
+	Peaking		Error	No
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Mon Nov 24 21:38:46 2025 
+Current time: Sun Nov 30 11:25:03 2025 
