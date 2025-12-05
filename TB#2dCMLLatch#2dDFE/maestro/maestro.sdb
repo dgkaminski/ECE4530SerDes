@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>ECE4530SerDes_DFE-TB_1
+			<test>ECE4530SerDes_TB-CMLLatch-DFE_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>DFE-TB</value>
+						<value>TB-CMLLatch-DFE</value>
 					</option>
 					<option>lib
 						<value>ECE4530SerDes</value>
@@ -30,28 +30,6 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
-				<vars>
-					<var>idfe
-						<value>1m</value>
-					</var>
-					<var>num_fing
-						<value>50</value>
-					</var>
-					<var>tap1
-						<value>0 5 10 15</value>
-					</var>
-					<var>tap2
-						<value>0</value>
-					</var>
-				</vars>
-				<outputs>
-					<output>((VT("/I4/dfen") - VT("/I4/dfep") - value((VT("/I4/dfen") - VT("/I4/dfep")) 1.4e-08)) / ymax((VT("/I4/dfen") - VT("/I4/dfep") - value((VT("/I4/dfen") - VT("/I4/dfep")) 2e-08))))
-						<evalType>point</evalType>
-					</output>
-					<output>((VT("/I4/dfen") - VT("/I4/dfep") - value((VT("/I4/dfen") - VT("/I4/dfep")) 1.4e-08)) / ymax((VT("/I4/dfen") - VT("/I4/dfep") - value((VT("/I4/dfen") - VT("/I4/dfep")) 1.9e-08))))
-						<evalType>point</evalType>
-					</output>
-				</outputs>
 			</test>
 		</tests>
 		<extensions>
@@ -63,7 +41,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">ECE4530SerDes_DFE-TB_1</test>
+			<test netlist="0" netlistscope="all">ECE4530SerDes_TB-CMLLatch-DFE_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
@@ -79,7 +57,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>no</value>
+				<value>yes</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
@@ -103,8 +81,6 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
-		<jobpolicyname>Maestro Default</jobpolicyname>
-		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 	</active>
 	<history>History
 	</history>
