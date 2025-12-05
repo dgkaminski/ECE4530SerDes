@@ -40,7 +40,10 @@
 				</tooloptions>
 				<vars>
 					<var>dly
-						<value>99p 101p</value>
+						<value>95p 105p</value>
+					</var>
+					<var>w
+						<value>1u</value>
 					</var>
 				</vars>
 			</test>
@@ -50,7 +53,7 @@
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
-				<value>(None)</value>
+				<value></value>
 			</plottingoption>
 			<plottingoption>plottingmode
 				<value>Replace</value>
@@ -62,7 +65,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>yes</value>
+				<value>no</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>

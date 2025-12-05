@@ -12,7 +12,7 @@
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>CMLFlipFlop</value>
+						<value>CMLFlipFlop_PLoad</value>
 					</option>
 					<option>lib
 						<value>ECE4530SerDes</value>
@@ -38,7 +38,7 @@
 						<value>50u</value>
 					</var>
 					<var>ibias2
-						<value>50u</value>
+						<value>60u</value>
 					</var>
 				</vars>
 			</test>
