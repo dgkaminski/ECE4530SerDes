@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Tue Dec  2 20:09:03 2025 
+Current time: Fri Dec  5 11:29:47 2025 
 Best design point: 1
 Design specs: 
 	ECE4530SerDes_CMOS_DeSerializer_1	corner	Nominal - 
@@ -10,4 +10,4 @@ ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Tue Dec  2 20:09:11 2025 
+Current time: Fri Dec  5 11:29:54 2025 

@@ -46,6 +46,9 @@
 						<value>7500</value>
 					</var>
 					<var>w
+						<value>1u</value>
+					</var>
+					<var>loadw
 						<value>400n</value>
 					</var>
 				</vars>

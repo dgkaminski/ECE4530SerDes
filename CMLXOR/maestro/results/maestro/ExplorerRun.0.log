@@ -1,13 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Dec  1 19:08:45 2025 
-Best design point: 1
-Design specs: 
-	ECE4530SerDes_CMLXOR_1	corner	Nominal - 
-Design parameters: 
-
-ExplorerRun.0
-Number of points completed: 1
-Number of simulation errors: 0
+Current time: Fri Dec  5 01:37:41 2025 
+Received stop signal from user. 
 ExplorerRun.0 completed. 
-Current time: Mon Dec  1 19:08:52 2025 
+Current time: Fri Dec  5 01:37:45 2025 

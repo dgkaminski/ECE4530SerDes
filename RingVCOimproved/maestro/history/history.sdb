@@ -3,15 +3,15 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 27 17:45:01 2025</timestamp>
-			<uuid>{3ca92b41-abca-4ecd-9fe5-2d2b6cd3e404}</uuid>
+			<timestamp>Dec 5 12:25:13 2025</timestamp>
+			<uuid>{e281e900-e3d9-486d-b909-71fe21857d5f}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/home/cx237/ece4530/ECE4530SerDes/RingVCOimproved/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/home/ans246/ece4530/ECE4530SerDes/RingVCOimproved/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/home/cx237/ece4530/ECE4530SerDes/RingVCOimproved/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/home/ans246/ece4530/ECE4530SerDes/RingVCOimproved/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/home/cx237/simulation/ECE4530SerDes/RingVCOimproved/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<psfdir>/home/ans246/simulation/ECE4530SerDes/RingVCOimproved/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
 			<simdir>$AXL_PROJECT_DIR/ECE4530SerDes/RingVCOimproved/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 	</history>

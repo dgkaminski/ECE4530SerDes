@@ -3,16 +3,16 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 19 17:17:17 2025</timestamp>
-			<uuid>{1564eb2d-befa-407f-9c80-21d042670bcc}</uuid>
+			<timestamp>Dec 5 00:24:12 2025</timestamp>
+			<uuid>{e01cf978-818d-438b-848e-df5e236abc17}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname></resultsname>
-			<simresults></simresults>
-			<runlog></runlog>
-			<runlogfile></runlogfile>
-			<psfdir></psfdir>
-			<simdir></simdir>
+			<resultsname>/home/cx237/ece4530/ECE4530SerDes/CMLFlipFlop_PLoad/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/cx237/ece4530/ECE4530SerDes/CMLFlipFlop_PLoad/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/cx237/simulation/ECE4530SerDes/CMLFlipFlop_PLoad/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE4530SerDes/CMLFlipFlop_PLoad/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 	</history>
 </setupdb>
