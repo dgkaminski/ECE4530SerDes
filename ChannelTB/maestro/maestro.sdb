@@ -32,7 +32,10 @@
 				</tooloptions>
 				<vars>
 					<var>num_fing
-						<value>50</value>
+						<value>10</value>
+					</var>
+					<var>zc
+						<value>1p</value>
 					</var>
 				</vars>
 			</test>

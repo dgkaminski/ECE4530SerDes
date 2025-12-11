@@ -38,13 +38,19 @@
 						<value>50</value>
 					</var>
 					<var>tap1
-						<value>5.2</value>
+						<value>5</value>
 					</var>
 					<var>tap2
-						<value>12.5</value>
+						<value>0</value>
 					</var>
 					<var>tap3
-						<value>5.7</value>
+						<value>0</value>
+					</var>
+					<var>zc
+						<value>1p</value>
+					</var>
+					<var>A
+						<value></value>
 					</var>
 				</vars>
 			</test>
@@ -74,7 +80,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>yes</value>
+				<value>no</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
@@ -98,6 +104,8 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<jobpolicyname>Maestro Default</jobpolicyname>
+		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 	</active>
 	<history>History
 	</history>
