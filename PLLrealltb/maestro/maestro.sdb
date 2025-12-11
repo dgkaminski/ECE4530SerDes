@@ -54,6 +54,24 @@
 					<var>w
 						<value>1u</value>
 					</var>
+					<var>num_fing
+						<value>10</value>
+					</var>
+					<var>zc
+						<value>1p</value>
+					</var>
+					<var>idfe
+						<value>1m</value>
+					</var>
+					<var>tap1
+						<value>15</value>
+					</var>
+					<var>tap2
+						<value>0</value>
+					</var>
+					<var>tap3
+						<value>2</value>
+					</var>
 				</vars>
 			</test>
 		</tests>

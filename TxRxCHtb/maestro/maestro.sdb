@@ -35,22 +35,19 @@
 						<value>1m</value>
 					</var>
 					<var>num_fing
-						<value>50</value>
+						<value>10</value>
 					</var>
 					<var>tap1
-						<value>5</value>
+						<value>15</value>
 					</var>
 					<var>tap2
 						<value>0</value>
 					</var>
 					<var>tap3
-						<value>0</value>
+						<value>2</value>
 					</var>
 					<var>zc
 						<value>1p</value>
-					</var>
-					<var>A
-						<value></value>
 					</var>
 				</vars>
 			</test>
