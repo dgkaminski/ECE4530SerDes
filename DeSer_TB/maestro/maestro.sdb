@@ -38,6 +38,11 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
+				<vars>
+					<var>w
+						<value>300n</value>
+					</var>
+				</vars>
 			</test>
 		</tests>
 		<disabledtests></disabledtests>
