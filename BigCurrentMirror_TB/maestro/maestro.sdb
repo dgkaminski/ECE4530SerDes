@@ -16,11 +16,11 @@
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test enabled="1">ECE4530SerDes_Ser_TB_1
+			<test enabled="1">ECE4530SerDes_BigCurrentMirror_TB_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>Ser_TB</value>
+						<value>BigCurrentMirror_TB</value>
 					</option>
 					<option>lib
 						<value>ECE4530SerDes</value>
@@ -42,11 +42,11 @@
 		</tests>
 		<disabledtests></disabledtests>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">ECE4530SerDes_Ser_TB_1</test>
+			<test netlist="0" netlistscope="all">ECE4530SerDes_BigCurrentMirror_TB_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
-				<value>(None)</value>
+				<value></value>
 			</plottingoption>
 			<plottingoption>plottingmode
 				<value>Replace</value>
@@ -58,7 +58,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>yes</value>
+				<value>no</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
