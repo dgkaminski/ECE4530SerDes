@@ -38,13 +38,19 @@
 						<value>50</value>
 					</var>
 					<var>tap1
-						<value>5.2</value>
+						<value>23</value>
 					</var>
 					<var>tap2
-						<value>12.5</value>
+						<value>4</value>
 					</var>
 					<var>tap3
 						<value>5.7</value>
+					</var>
+					<var>zc
+						<value>1p</value>
+					</var>
+					<var>nf
+						<value>1</value>
 					</var>
 				</vars>
 				<outputs>

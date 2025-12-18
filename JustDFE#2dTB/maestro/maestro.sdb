@@ -35,7 +35,13 @@
 						<value>1m</value>
 					</var>
 					<var>tap1
-						<value>25</value>
+						<value>15</value>
+					</var>
+					<var>tap2
+						<value>0</value>
+					</var>
+					<var>tap3
+						<value>0</value>
 					</var>
 				</vars>
 			</test>
@@ -65,7 +71,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>useMaestroPlottingTemplate
-				<value>yes</value>
+				<value>no</value>
 			</plottingoption>
 			<plottingoption>allplottingtemplates
 				<value></value>
