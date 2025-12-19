@@ -1,15 +1,15 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Wed Dec 10 16:22:28 2025 
+Current time: Wed Dec 17 20:40:30 2025 
 Best design point: 1
 Design specs: 
 	ECE4530SerDes_TxTB_1	corner	Nominal - 
-	eye_height		5.047m
-	eye_maxHeight		0
+	eye_height		2.866m
+	eye_maxHeight		103.5m
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Wed Dec 10 16:22:34 2025 
+Current time: Wed Dec 17 20:40:41 2025 

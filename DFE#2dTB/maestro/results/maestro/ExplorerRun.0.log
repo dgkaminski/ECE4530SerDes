@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Tue Dec  9 11:06:31 2025 
+Current time: Thu Dec 18 18:18:12 2025 
 Best design point: 1
 Design specs: 
 	ECE4530SerDes_DFE-TB_1	corner	Nominal - 
@@ -10,4 +10,4 @@ ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Tue Dec  9 11:06:43 2025 
+Current time: Thu Dec 18 18:18:19 2025 
