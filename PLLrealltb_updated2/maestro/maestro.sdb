@@ -48,18 +48,6 @@
 					</output>
 				</outputs>
 				<vars>
-					<var>bias
-						<value>63.5u</value>
-					</var>
-					<var>w
-						<value>1u</value>
-					</var>
-					<var>num_fing
-						<value>10</value>
-					</var>
-					<var>zc
-						<value>1p</value>
-					</var>
 					<var>idfe
 						<value>1m</value>
 					</var>
