@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      cx237
+HostName                       en-ec-c2s2-r660.coecis.cornell.edu
+ProcessIdentifier              2535743
+ProcessCreationTime_UTC        1766170744
+ProcessCreationTime_Readable   Fri Dec 19 13:59:04 2025 EST
+AppIdentifier                  /opt/cadence/IC231.007/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/cx237/ece4530/ECE4530SerDes/TxDriver/constraint/prop.cfg
+TimeEditLocked                 Fri Dec 19 20:06:11 2025 EST

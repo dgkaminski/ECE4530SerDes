@@ -37,6 +37,12 @@
 					<var>tap3
 						<value>700u</value>
 					</var>
+					<var>num_fing
+						<value>25</value>
+					</var>
+					<var>zc
+						<value>1p</value>
+					</var>
 				</vars>
 				<outputs>
 					<output>eye_height

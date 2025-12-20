@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Tue Dec 16 21:35:53 2025 
+Current time: Fri Dec 19 22:28:25 2025 
 Best design point: 1
 Design specs: 
 	ECE4530SerDes_PLLmodeltb_1	corner	Nominal - 
@@ -8,6 +8,6 @@ Design parameters:
 
 ExplorerRun.0
 Number of points completed: 1
-Number of simulation errors: 0
+Number of simulation errors: 1
 ExplorerRun.0 completed. 
-Current time: Tue Dec 16 21:50:22 2025 
+Current time: Fri Dec 19 22:28:34 2025 
