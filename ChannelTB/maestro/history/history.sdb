@@ -3,15 +3,15 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Dec 10 15:32:20 2025</timestamp>
-			<uuid>{b386fbd3-d85e-4b2a-90a6-87b72a4be290}</uuid>
+			<timestamp>Dec 20 21:18:34 2025</timestamp>
+			<uuid>{85244ff0-981e-4b05-9968-0cb3bb187ad4}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/home/cx237/ece4530/ECE4530SerDes/ChannelTB/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/home/dgk64/ece4530/ECE4530SerDes/ChannelTB/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/home/cx237/ece4530/ECE4530SerDes/ChannelTB/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/home/dgk64/ece4530/ECE4530SerDes/ChannelTB/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/home/cx237/simulation/ECE4530SerDes/ChannelTB/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<psfdir>/home/dgk64/simulation/ECE4530SerDes/ChannelTB/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
 			<simdir>$AXL_PROJECT_DIR/ECE4530SerDes/ChannelTB/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 	</history>

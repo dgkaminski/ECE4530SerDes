@@ -1,6 +1,14 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sat Dec 20 03:48:38 2025 
-Received stop signal from user. 
+Current time: Sat Dec 20 22:38:31 2025 
+Best design point: 1
+Design specs: 
+	ECE4530SerDes_PLLmodeltb_1	corner	Nominal - 
+	freq(VT("/vout") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)		Error	No
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Sat Dec 20 03:49:01 2025 
+Current time: Sat Dec 20 22:38:39 2025 
