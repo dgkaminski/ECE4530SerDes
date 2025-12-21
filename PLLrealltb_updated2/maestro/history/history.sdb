@@ -3,8 +3,13 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+<<<<<<< HEAD
 			<timestamp>Dec 20 22:38:31 2025</timestamp>
 			<uuid>{79d3e67c-5b76-4aed-8de1-d049e09322fe}</uuid>
+=======
+			<timestamp>Dec 20 04:02:51 2025</timestamp>
+			<uuid>{94d0de38-30d0-49e3-b837-b1373a8ac8ce}</uuid>
+>>>>>>> 3aae6dcd89af47ef150429d06f53d5c68a07fc4e
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/dgk64/ece4530/ECE4530SerDes/PLLrealltb_updated2/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

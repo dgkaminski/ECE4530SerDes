@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
+<<<<<<< HEAD
 <statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="12/20/2025 22:37:28" version="5">active
+=======
+<statedb ICVersion="IC23.1-64b.ISR7.27" modifiedTime="12/20/2025 04:02:46" version="5">active
+>>>>>>> 3aae6dcd89af47ef150429d06f53d5c68a07fc4e
 	<Test Name="ECE4530SerDes_PLLmodeltb_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
 			<field Name="descriptiontext" Type="string">"None"</field>

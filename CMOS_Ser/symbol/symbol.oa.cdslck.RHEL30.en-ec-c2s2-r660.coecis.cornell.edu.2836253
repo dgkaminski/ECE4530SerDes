@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Sat Dec 20 03:45:13 2025 EST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/cx237/ece4530/ECE4530SerDes/CMOS_DeSerializer_globalpins/schematic/sch.oa.cdslck.dirlck
-TimeEditLocked                 Sat Dec 20 12:59:54 2025 EST
+FilePathUsedToEditLock         /home/cx237/ece4530/ECE4530SerDes/CMOS_Ser/symbol/symbol.oa.cdslck
+TimeEditLocked                 Sat Dec 20 12:59:37 2025 EST
